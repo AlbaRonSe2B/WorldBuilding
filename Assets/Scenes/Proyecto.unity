@@ -72,7 +72,7 @@ LightmapSettings:
     m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
     m_MixedBakeMode: 2
-    m_BakeBackend: 1
+    m_BakeBackend: 2
     m_PVRSampling: 1
     m_PVRDirectSampleCount: 32
     m_PVRSampleCount: 512
@@ -1273,7 +1273,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 3.2857144, y: 1}
+    m_SensorSize: {x: 1.7789474, y: 1}
     Iso: 200
     ShutterSpeed: 0.005
     Aperture: 16
@@ -7378,8 +7378,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 136179937}
-  m_LocalRotation: {x: -0.035060797, y: 0.7110277, z: -0.035346925, w: -0.7013994}
-  m_LocalPosition: {x: 180.18, y: 4.39, z: 22.96}
+  m_LocalRotation: {x: 0.008396742, y: 0.68830085, z: 0.008138193, w: -0.7253312}
+  m_LocalPosition: {x: 183.53221, y: 3.402371, z: 24.605011}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 793713567}
@@ -7415,7 +7415,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 3.2857144, y: 1}
+    m_SensorSize: {x: 1.7789474, y: 1}
     Iso: 200
     ShutterSpeed: 0.005
     Aperture: 16
@@ -8905,7 +8905,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!65 &208745706
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9407,8 +9407,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 218697854}
-  m_LocalRotation: {x: -0.0076930313, y: -0.7564439, z: -0.0088070035, w: 0.65395415}
-  m_LocalPosition: {x: 113.56416, y: 2.8871465, z: 25.50705}
+  m_LocalRotation: {x: -0.033966895, y: 0.89058906, z: -0.067131385, w: -0.44854298}
+  m_LocalPosition: {x: 86.071915, y: 0.30240583, z: 31.811096}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 401134237}
@@ -9444,7 +9444,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 3.2857144, y: 1}
+    m_SensorSize: {x: 1.7789474, y: 1}
     Iso: 200
     ShutterSpeed: 0.005
     Aperture: 16
@@ -10523,7 +10523,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!65 &252255688
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14910,22 +14910,49 @@ PlayableDirector:
     value: {fileID: 1653018818}
   m_ExposedReferences:
     m_References:
+    - 98b1ce01e7620c4418dd8076b95e1ed6: {fileID: 1303353021}
     - 3ba6dea3c4c91354ca86cc0a6832e071: {fileID: 673031160}
     - 73e8bf153765c984c9297e89b30725c3: {fileID: 1712901151}
+    - 1b17d118ae2e19f48b7b6e1e2939191b: {fileID: 1239261986}
+    - a245aaa417c620d43b7ddb774da65f26: {fileID: 673031160}
+    - fea0b8d322a336f4190c6bc4aa6612e4: {fileID: 1603310166}
     - 281dd6d4cdaaece4c94b24c2df3a1e06: {fileID: 1249621514}
+    - 02b54dadf01402043a0409a5920dbf21: {fileID: 1214143545}
+    - da732c8d9df5af74ab4b750570d2bcd6: {fileID: 1712901151}
     - ade74fa46f80a91499369355152da9c5: {fileID: 136179939}
     - 6aa547485a0f8c1459edd134e13e4c8d: {fileID: 1939997623}
     - 4a3229d59e3b7464fa4fdc7d1b7fd14c: {fileID: 136179939}
+    - 6d6e91600969d2e4cb2d605cdb034b2a: {fileID: 1214143545}
+    - e4effb2daffe25e4e8390ae0975b1747: {fileID: 1303353021}
+    - d08469228cd9c5944bd5dcd59172e286: {fileID: 54293290}
+    - a62d003f453050e42ba71e3fcba154f6: {fileID: 1016462375}
+    - dc328c7e8dbc9c145b081f189789f364: {fileID: 583242091}
+    - 84bb4a332bcfd9544a1d9cc22bd95a13: {fileID: 136179939}
+    - cf16118b77975d14f8679b563281f509: {fileID: 1939997623}
+    - cdada4df08350444bb11c99771e16c8e: {fileID: 1712901151}
+    - 4d296bb0f066e6848a5c67992e8dc22f: {fileID: 583242091}
+    - f3c783371c4f4ad49983aaabcecea10b: {fileID: 1603310166}
     - f0691d0117172d748bfaf767eff2de1f: {fileID: 1214143545}
     - 8a1ab5c7684e95940a8f829942dfa1c2: {fileID: 1653018813}
+    - bb00be2a78f7e4146bfb834779286663: {fileID: 1249621514}
+    - 90f962190df6e85468a781bcc769da51: {fileID: 218697856}
+    - 0bdfa0fdc32461a4baa8080666967240: {fileID: 1239261986}
     - 55c017861325e154aa614a6a7fc78a11: {fileID: 1303353021}
     - 69d20f28ec988ee4f95b733aaedb9b09: {fileID: 946573336}
+    - dad24bd57b9f5d840b093fa2e1a89267: {fileID: 673031160}
+    - 694d6839a2487754db9d1670d1487c6f: {fileID: 1249621514}
     - de1c7a003aebed04e997e6248e164edf: {fileID: 583242091}
     - bb56423680d62ea41a6362ba1cd78648: {fileID: 218697856}
+    - 33ef9127c3bb23f45950f9d88fd85603: {fileID: 946573336}
+    - 06e832cdb875dbc44aecf3e45604b768: {fileID: 1016462375}
+    - 2a8f230286e4ff84895e332472fadc06: {fileID: 1939997623}
     - 023a80247bc1628479eda87dba651419: {fileID: 54293290}
     - 7da60bb53c6dca14ba8fd0820d6b1eb4: {fileID: 1239261986}
+    - 1d8c9accb718aaf40b779c03ff513d43: {fileID: 946573336}
     - f58df28e1720e444aad54288a1b01df1: {fileID: 1016462375}
+    - 240562b58e9dc3a498e4c3c4c235a87e: {fileID: 54293290}
     - 32f791fcd315e9045a8cc02de401fa0f: {fileID: 1603310166}
+    - 51a195b4c49c421479eefa9a6f6d1180: {fileID: 946573336}
     - 66c7e1dc7bc3ea44fb42596f26954c5d: {fileID: 1239261986}
 --- !u!1 &378302830
 GameObject:
@@ -19500,7 +19527,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 3.2857144, y: 1}
+    m_SensorSize: {x: 1.7789474, y: 1}
     Iso: 200
     ShutterSpeed: 0.005
     Aperture: 16
@@ -21850,7 +21877,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 3.2857144, y: 1}
+    m_SensorSize: {x: 1.7789474, y: 1}
     Iso: 200
     ShutterSpeed: 0.005
     Aperture: 16
@@ -22253,13 +22280,13 @@ MonoBehaviour:
   m_PointlightHDType: 0
   m_SpotLightShape: 0
   m_AreaLightShape: 0
-  m_Intensity: 5000
+  m_Intensity: 2.1
   m_EnableSpotReflector: 0
-  m_LuxAtDistance: 1
+  m_LuxAtDistance: 7
   m_InnerSpotPercent: 0
   m_LightDimmer: 1
   m_VolumetricDimmer: 1
-  m_LightUnit: 0
+  m_LightUnit: 2
   m_FadeDistance: 10000
   m_AffectDiffuse: 1
   m_AffectSpecular: 1
@@ -22355,8 +22382,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 397.88736
-  m_Range: 2000
+  m_Intensity: 102.899994
+  m_Range: 12
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -23099,7 +23126,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!65 &718256344
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34081,7 +34108,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 3.2857144, y: 1}
+    m_SensorSize: {x: 1.7789474, y: 1}
     Iso: 200
     ShutterSpeed: 0.005
     Aperture: 16
@@ -36425,7 +36452,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 3.2857144, y: 1}
+    m_SensorSize: {x: 1.7789474, y: 1}
     Iso: 200
     ShutterSpeed: 0.005
     Aperture: 16
@@ -39947,6 +39974,11 @@ PrefabInstance:
       propertyPath: ShapeModule.m_Scale.x
       value: 214.2
       objectReference: {fileID: 0}
+    - target: {fileID: 5168318491563131934, guid: f6204b14ebe5b704b80b0cf9fd2ee690,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 21.59
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6204b14ebe5b704b80b0cf9fd2ee690, type: 3}
 --- !u!4 &1167936442 stripped
@@ -41238,7 +41270,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 3.2857144, y: 1}
+    m_SensorSize: {x: 1.7789474, y: 1}
     Iso: 200
     ShutterSpeed: 0.005
     Aperture: 16
@@ -42148,7 +42180,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 3.2857144, y: 1}
+    m_SensorSize: {x: 1.7789474, y: 1}
     Iso: 200
     ShutterSpeed: 0.005
     Aperture: 16
@@ -42371,7 +42403,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 3.2857144, y: 1}
+    m_SensorSize: {x: 1.7789474, y: 1}
     Iso: 200
     ShutterSpeed: 0.005
     Aperture: 16
@@ -43944,7 +43976,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 3.2857144, y: 1}
+    m_SensorSize: {x: 1.7789474, y: 1}
     Iso: 200
     ShutterSpeed: 0.005
     Aperture: 16
@@ -45956,7 +45988,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1412811245
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46841,13 +46873,13 @@ MonoBehaviour:
   m_PointlightHDType: 0
   m_SpotLightShape: 0
   m_AreaLightShape: 0
-  m_Intensity: 5000
+  m_Intensity: 2.1
   m_EnableSpotReflector: 0
-  m_LuxAtDistance: 1
+  m_LuxAtDistance: 7
   m_InnerSpotPercent: 0
   m_LightDimmer: 1
   m_VolumetricDimmer: 1
-  m_LightUnit: 0
+  m_LightUnit: 2
   m_FadeDistance: 10000
   m_AffectDiffuse: 1
   m_AffectSpecular: 1
@@ -46943,8 +46975,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 397.88736
-  m_Range: 2000
+  m_Intensity: 102.899994
+  m_Range: 12
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -50383,7 +50415,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 3.2857144, y: 1}
+    m_SensorSize: {x: 1.7789474, y: 1}
     Iso: 200
     ShutterSpeed: 0.005
     Aperture: 16
@@ -53388,8 +53420,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1712901149}
-  m_LocalRotation: {x: 0.013795322, y: -0.9855753, z: 0.099686354, w: 0.13606508}
-  m_LocalPosition: {x: 28.192429, y: -0.36315608, z: 4.4638977}
+  m_LocalRotation: {x: 0.06273583, y: 0.931801, z: -0.19603072, w: 0.29896984}
+  m_LocalPosition: {x: 24.339035, y: 0.38316488, z: 4.7591248}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 224789463}
@@ -53425,7 +53457,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 3.2857144, y: 1}
+    m_SensorSize: {x: 1.7789474, y: 1}
     Iso: 200
     ShutterSpeed: 0.005
     Aperture: 16
@@ -55649,7 +55681,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!65 &1870813897
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -57155,7 +57187,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 3.2857144, y: 1}
+    m_SensorSize: {x: 1.7789474, y: 1}
     Iso: 200
     ShutterSpeed: 0.005
     Aperture: 16
